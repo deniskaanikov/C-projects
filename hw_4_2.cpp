@@ -4,9 +4,10 @@ using namespace std;
 
 int main()
 {
+    cout << "введите размер массива и сам массив" << endl;
     int n, m;
     cin >> n >> m;
-    int a[100][100];
+    int a[10000][10000];
     // ввод массива
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < m; j++) {
